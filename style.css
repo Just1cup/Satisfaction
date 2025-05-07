@@ -7,7 +7,7 @@ body {
   transition: transform 0.2s;
 }
 
-/* Container central */
+
 .container {
   max-width: 500px;
   margin: auto;
@@ -17,7 +17,7 @@ body {
   box-shadow: 0 0 20px #7f00ff22;
 }
 
-/* Títulos */
+
 h1 {
   color: #c59bff;
   text-align: center;
@@ -44,20 +44,20 @@ textarea::placeholder {
   opacity: 0.7;
 }
 
-/* Inputs com erro */
+
 input.error, select.error, textarea.error {
   border: 2px solid #ff4b4b;
   background-color: #3a1a1a;
 }
 
-/* Mensagem de erro */
+
 .error-message {
   color: #ff4b4b;
   font-size: 0.85rem;
   margin-bottom: 1rem;
 }
 
-/* Botão */
+
 button {
   background-color: #7f00ff;
   color: white;
@@ -72,7 +72,7 @@ button:hover {
   transform: scale(1.02);
 }
 
-/* Rodapé */
+
 .footer {
   text-align: center;
   margin-top: 2rem;
@@ -80,7 +80,7 @@ button:hover {
   color: #888;
 }
 
-/* Animação de tremer */
+
 .shake {
   animation: shake 0.5s;
 }
