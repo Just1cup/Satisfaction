@@ -13,11 +13,11 @@ formulario.addEventListener('submit', function(event) {
 
   let camposInvalidos = [];
 
-  // Limpar erros anteriores
+
   [nome, email, satisfacao].forEach(campo => campo.classList.remove('error'));
   [erroNome, erroEmail, erroSatisfacao].forEach(erro => erro.textContent = '');
 
-  // Validação
+
   if (!nome.value.trim()) {
     nome.classList.add('error');
     erroNome.textContent = "Campo obrigatório, preencha-o, por favor.";
@@ -37,10 +37,10 @@ formulario.addEventListener('submit', function(event) {
   }
 
   if (camposInvalidos.length > 0) {
-    // Rolando para o topo da página
+  
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // Adicionando o efeito de shake
+   
     document.body.classList.add('shake');
     setTimeout(() => {
       document.body.classList.remove('shake');
